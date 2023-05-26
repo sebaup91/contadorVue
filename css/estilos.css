@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7c2c2;
+    font-size: 15px;
+}
+
+.contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(58, 57, 57);
+    background-color: #fff;
+    gap: 30px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.contenedor{
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+.boton{
+    border: none;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: tomato;
+    font-size: 20px;
+    color: #fff;
+}
